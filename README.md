@@ -7,6 +7,9 @@ For more than one explanatory variable, the process is called *multiple linear r
 
 We will first learn to implement simple linear regression from scratch with python.
 
+# Gradient Descent
+Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
+
 ## Dependencies
 * Numpy
 * Matplotlib
@@ -14,6 +17,8 @@ We will first learn to implement simple linear regression from scratch with pyth
 
 ## Dataset
 inusrance.csv -  swedish insurance dataset to demonstrate simple linear regression
+data.csv - sample dataset with two variables used for the gradient descent example.
 
 ## Usage
-Open the linearregression.ipynb - A Jupyter notebook to demonstrate code of linear regression
+* linearregression.ipynb - A Jupyter notebook to demonstrate code of simple linear regression
+* gradientdescent.ipynb - A Jupyter notebook to demonstrate gradient descent using simple linear regression.
